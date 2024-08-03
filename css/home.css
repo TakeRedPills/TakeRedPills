@@ -1,0 +1,81 @@
+*{
+    background-color: #151212;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoCo{
+    width: 100%;
+}
+
+.logo_home{
+    width: 100%;
+}
+
+.password_home{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password_home_input{
+    border: none;
+    background-color: #741a1c;
+    padding: 0 0;
+    height: 19px;
+    width: 74%;
+
+    
+}
+.password_home_input:focus{
+    outline: none;
+}
+.password_home_input::placeholder{
+    color: #741a1c;
+}
+.password_home_input:hover::placeholder{
+    color: #151212;
+}
+
+.button_home{
+    border: none;
+    background-color: #741a1c;
+    padding: 0 5px;
+    height: 19px;
+    width: 24%;
+    font-weight: 10;
+    color: #741a1c;
+
+    cursor: pointer;
+}
+.button_home:hover{
+    background-color: #7f1f20;
+    color: #151212;
+}
+.button_home:active{
+    background-color: #932628;
+}
+
+.alert_home{
+    margin-top: 10px;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+
+}
+
+
